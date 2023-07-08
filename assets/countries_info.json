@@ -1,0 +1,942 @@
+{
+    "afghanistan": {
+        "persian_name": "افغانستان",
+        "emoji": "🇦🇫"
+    },
+    "albania": {
+        "persian_name": "آلبانی",
+        "emoji": "🇦🇱"
+    },
+    "algeria": {
+        "persian_name": "الجزایر",
+        "emoji": "🇩🇿"
+    },
+    "andorra": {
+        "persian_name": "آندورا",
+        "emoji": "🇦🇩"
+    },
+    "angola": {
+        "persian_name": "آنگولا",
+        "emoji": "🇦🇴"
+    },
+    "anguilla": {
+        "persian_name": "آنگولیا",
+        "emoji": "🇦🇮"
+    },
+    "antigua and barbuda": {
+        "persian_name": "آنتیگوا و باربودا",
+        "emoji": "🇦🇬"
+    },
+    "antiguaandbarbuda": {
+        "persian_name": "آنتیگوا و باربودا",
+        "emoji": "🇦🇬"
+    },
+    "argentina": {
+        "persian_name": "آرژانتین",
+        "emoji": "🇦🇷"
+    },
+    "armenia": {
+        "persian_name": "ارمنستان",
+        "emoji": "🇦🇲"
+    },
+    "aruba": {
+        "persian_name": "آروبا",
+        "emoji": "🇦🇼"
+    },
+    "australia": {
+        "persian_name": "استرالیا",
+        "emoji": "🇦🇺"
+    },
+    "austria": {
+        "persian_name": "اتریش",
+        "emoji": "🇦🇹"
+    },
+    "azerbaijan": {
+        "persian_name": "آذربایجان",
+        "emoji": "🇦🇿"
+    },
+    "bahamas": {
+        "persian_name": "باهاما",
+        "emoji": "🇧🇸"
+    },
+    "bahrain": {
+        "persian_name": "بحرین",
+        "emoji": "🇧🇭"
+    },
+    "bangladesh": {
+        "persian_name": "بنگلادش",
+        "emoji": "🇧🇩"
+    },
+    "barbados": {
+        "persian_name": "باربادوس",
+        "emoji": "🇧🇧"
+    },
+    "belarus": {
+        "persian_name": "بلاروس",
+        "emoji": "🇧🇾"
+    },
+    "belgium": {
+        "persian_name": "بلژیک",
+        "emoji": "🇧🇪"
+    },
+    "belize": {
+        "persian_name": "بلیز",
+        "emoji": "🇧🇿"
+    },
+    "benin": {
+        "persian_name": "بنین",
+        "emoji": "🇧🇯"
+    },
+    "bhutan": {
+        "persian_name": "بوتان",
+        "emoji": "🇧🇹"
+    },
+    "bhutane": {
+        "persian_name": "بوتان",
+        "emoji": "🇧🇹"
+    },
+    "bih": {
+        "persian_name": "بوسنی و هرزگوین",
+        "emoji": "🇧🇦"
+    },
+    "bolivia": {
+        "persian_name": "بولیوی",
+        "emoji": "🇧🇴"
+    },
+    "bosnia and herzegovina": {
+        "persian_name": "بوسنی و هرزگوین",
+        "emoji": "🇧🇦"
+    },
+    "botswana": {
+        "persian_name": "بوتسوانا",
+        "emoji": "🇧🇼"
+    },
+    "brazil": {
+        "persian_name": "برزیل",
+        "emoji": "🇧🇷"
+    },
+    "brunei": {
+        "persian_name": "برونئی",
+        "emoji": "🇧🇳"
+    },
+    "bulgaria": {
+        "persian_name": "بلغارستان",
+        "emoji": "🇧🇬"
+    },
+    "burkina faso": {
+        "persian_name": "بورکینافاسو",
+        "emoji": "🇧🇫"
+    },
+    "burkinafaso": {
+        "persian_name": "بورکینافاسو",
+        "emoji": "🇧🇫"
+    },
+    "burundi": {
+        "persian_name": "بوروندی",
+        "emoji": "🇧🇮"
+    },
+    "cambodia": {
+        "persian_name": "کامبوج",
+        "emoji": "🇰🇭"
+    },
+    "cameroon": {
+        "persian_name": "کامرون",
+        "emoji": "🇨🇲"
+    },
+    "canada": {
+        "persian_name": "کانادا",
+        "emoji": "🇨🇦"
+    },
+    "cape verde": {
+        "persian_name": "کیپ ورد",
+        "emoji": "🇨🇻"
+    },
+    "capeverde": {
+        "persian_name": "کیپ‌ورد",
+        "emoji": "🇨🇻"
+    },
+    "caymanislands": {
+        "persian_name": "جزایر کیمن",
+        "emoji": "🇰🇾"
+    },
+    "central african republic": {
+        "persian_name": "جمهوری آفریقای مرکزی",
+        "emoji": "🇨🇫"
+    },
+    "chad": {
+        "persian_name": "چاد",
+        "emoji": "🇹🇩"
+    },
+    "chile": {
+        "persian_name": "شیلی",
+        "emoji": "🇨🇱"
+    },
+    "china": {
+        "persian_name": "چین",
+        "emoji": "🇨🇳"
+    },
+    "colombia": {
+        "persian_name": "کلمبیا",
+        "emoji": "🇨🇴"
+    },
+    "comoros": {
+        "persian_name": "کومور",
+        "emoji": "🇰🇲"
+    },
+    "congo": {
+        "persian_name": "کنگو",
+        "emoji": "🇨🇩"
+    },
+    "costa rica": {
+        "persian_name": "کاستاریکا",
+        "emoji": "🇨🇷"
+    },
+    "costarica": {
+        "persian_name": "کاستاریکا",
+        "emoji": "🇨🇷"
+    },
+    "croatia": {
+        "persian_name": "کرواسی",
+        "emoji": "🇭🇷"
+    },
+    "cuba": {
+        "persian_name": "کوبا",
+        "emoji": "🇨🇺"
+    },
+    "cyprus": {
+        "persian_name": "قبرس",
+        "emoji": "🇨🇾"
+    },
+    "czech": {
+        "persian_name": "جمهوری چک",
+        "emoji": "🇨🇿"
+    },
+    "czechia/czech republic": {
+        "persian_name": "جمهوری چک",
+        "emoji": "🇨🇿"
+    },
+    "côte d’ivoire/ivory coast": {
+        "persian_name": "ساحل عاج",
+        "emoji": "🇨🇮"
+    },
+    "democratic republic of the congo": {
+        "persian_name": "جمهوری دموکراتیک کنگو",
+        "emoji": "🇨🇩"
+    },
+    "denmark": {
+        "persian_name": "دانمارک",
+        "emoji": "🇩🇰"
+    },
+    "djibouti": {
+        "persian_name": "جیبوتی",
+        "emoji": "🇩🇯"
+    },
+    "dominica": {
+        "persian_name": "دومینیکا",
+        "emoji": "🇩🇲"
+    },
+    "dominican republic": {
+        "persian_name": "جمهوری دومینیکن",
+        "emoji": "🇩🇴"
+    },
+    "drcongo": {
+        "persian_name": "جمهوری دموکراتیک کنگو",
+        "emoji": "🇨🇩"
+    },
+    "easttimor": {
+        "persian_name": "تیمور شرقی",
+        "emoji": "🇹🇱"
+    },
+    "ecuador": {
+        "persian_name": "اکوادور",
+        "emoji": "🇪🇨"
+    },
+    "egypt": {
+        "persian_name": "مصر",
+        "emoji": "🇪🇬"
+    },
+    "el salvador": {
+        "persian_name": "السالوادور",
+        "emoji": "🇸🇻"
+    },
+    "england": {
+        "persian_name": "انگلستان",
+        "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    "equatorial guinea": {
+        "persian_name": "گینه استوایی",
+        "emoji": "🇬🇶"
+    },
+    "equatorialguinea": {
+        "persian_name": "گینه استوایی",
+        "emoji": "🇬🇶"
+    },
+    "eritrea": {
+        "persian_name": "اریتره",
+        "emoji": "🇪🇷"
+    },
+    "estonia": {
+        "persian_name": "استونی",
+        "emoji": "🇪🇪"
+    },
+    "eswatini (formerly swaziland)": {
+        "persian_name": "اسواتینی",
+        "emoji": "🇸🇿"
+    },
+    "ethiopia": {
+        "persian_name": "اتیوپی",
+        "emoji": "🇪🇹"
+    },
+    "fiji": {
+        "persian_name": "فیجی",
+        "emoji": "🇫🇯"
+    },
+    "finland": {
+        "persian_name": "فنلاند",
+        "emoji": "🇫🇮"
+    },
+    "france": {
+        "persian_name": "فرانسه",
+        "emoji": "🇫🇷"
+    },
+    "frenchguiana": {
+        "persian_name": "گویان فرانسه",
+        "emoji": "🇬🇫"
+    },
+    "gabon": {
+        "persian_name": "گابن",
+        "emoji": "🇬🇦"
+    },
+    "gambia": {
+        "persian_name": "گامبیا",
+        "emoji": "🇬🇲"
+    },
+    "georgia": {
+        "persian_name": "گرجستان",
+        "emoji": "🇬🇪"
+    },
+    "germany": {
+        "persian_name": "آلمان",
+        "emoji": "🇩🇪"
+    },
+    "ghana": {
+        "persian_name": "غنا",
+        "emoji": "🇬🇭"
+    },
+    "greece": {
+        "persian_name": "یونان",
+        "emoji": "🇬🇷"
+    },
+    "grenada": {
+        "persian_name": "گرنادا",
+        "emoji": "🇬🇩"
+    },
+    "guadeloupe": {
+        "persian_name": "گوادلوپ",
+        "emoji": "🇬🇵"
+    },
+    "guatemala": {
+        "persian_name": "گواتمالا",
+        "emoji": "🇬🇹"
+    },
+    "guinea": {
+        "persian_name": "گینه",
+        "emoji": "🇬🇳"
+    },
+    "guinea-bissau": {
+        "persian_name": "گینه بیسائو",
+        "emoji": "🇬🇼"
+    },
+    "guineabissau": {
+        "persian_name": "گینه بیسائو",
+        "emoji": "🇬🇼"
+    },
+    "guyana": {
+        "persian_name": "گویان",
+        "emoji": "🇬🇾"
+    },
+    "haiti": {
+        "persian_name": "هائیتی",
+        "emoji": "🇭🇹"
+    },
+    "honduras": {
+        "persian_name": "هندوراس",
+        "emoji": "🇭🇳"
+    },
+    "hongkong": {
+        "persian_name": "هنگ‌کنگ",
+        "emoji": "🇭🇰"
+    },
+    "hungary": {
+        "persian_name": "مجارستان",
+        "emoji": "🇭🇺"
+    },
+    "iceland": {
+        "persian_name": "ایسلند",
+        "emoji": "🇮🇸"
+    },
+    "india": {
+        "persian_name": "هندوستان",
+        "emoji": "🇮🇳"
+    },
+    "indonesia": {
+        "persian_name": "اندونزی",
+        "emoji": "🇮🇩"
+    },
+    "iran": {
+        "persian_name": "ایران",
+        "emoji": "🇮🇷"
+    },
+    "iraq": {
+        "persian_name": "عراق",
+        "emoji": "🇮🇶"
+    },
+    "ireland": {
+        "persian_name": "ایرلند",
+        "emoji": "🇮🇪"
+    },
+    "israel": {
+        "persian_name": "اسرائیل",
+        "emoji": "🇮🇱"
+    },
+    "italy": {
+        "persian_name": "ایتالیا",
+        "emoji": "🇮🇹"
+    },
+    "jamaica": {
+        "persian_name": "جامائیکا",
+        "emoji": "🇯🇲"
+    },
+    "japan": {
+        "persian_name": "ژاپن",
+        "emoji": "🇯🇵"
+    },
+    "jordan": {
+        "persian_name": "اردن",
+        "emoji": "🇯🇴"
+    },
+    "kazakhstan": {
+        "persian_name": "قزاقستان",
+        "emoji": "🇰🇿"
+    },
+    "kenya": {
+        "persian_name": "کنیا",
+        "emoji": "🇰🇪"
+    },
+    "kiribati": {
+        "persian_name": "کیریباتی",
+        "emoji": "🇰🇮"
+    },
+    "kuwait": {
+        "persian_name": "کویت",
+        "emoji": "🇰🇼"
+    },
+    "kyrgyzstan": {
+        "persian_name": "قرقیزستان",
+        "emoji": "🇰🇬"
+    },
+    "laos": {
+        "persian_name": "لائوس",
+        "emoji": "🇱🇦"
+    },
+    "latvia": {
+        "persian_name": "لتونی",
+        "emoji": "🇱🇻"
+    },
+    "lebanon": {
+        "persian_name": "لبنان",
+        "emoji": "🇱🇧"
+    },
+    "lesotho": {
+        "persian_name": "لسوتو",
+        "emoji": "🇱🇸"
+    },
+    "liberia": {
+        "persian_name": "لیبریا",
+        "emoji": "🇱🇷"
+    },
+    "libya": {
+        "persian_name": "لیبی",
+        "emoji": "🇱🇾"
+    },
+    "liechtenstein": {
+        "persian_name": "لیختنشتاین",
+        "emoji": "🇱🇮"
+    },
+    "lithuania": {
+        "persian_name": "لیتوانی",
+        "emoji": "🇱🇹"
+    },
+    "luxembourg": {
+        "persian_name": "لوکزامبورگ",
+        "emoji": "🇱🇺"
+    },
+    "macau": {
+        "persian_name": "ماکو",
+        "emoji": "🇲🇴"
+    },
+    "madagascar": {
+        "persian_name": "ماداگاسکار",
+        "emoji": "🇲🇬"
+    },
+    "malawi": {
+        "persian_name": "مالاوی",
+        "emoji": "🇲🇼"
+    },
+    "malaysia": {
+        "persian_name": "مالزی",
+        "emoji": "🇲🇾"
+    },
+    "maldives": {
+        "persian_name": "مالدیو",
+        "emoji": "🇲🇻"
+    },
+    "mali": {
+        "persian_name": "مالی",
+        "emoji": "🇲🇱"
+    },
+    "malta": {
+        "persian_name": "مالت",
+        "emoji": "🇲🇹"
+    },
+    "marshall islands": {
+        "persian_name": "جزایر مارشال",
+        "emoji": "🇲🇭"
+    },
+    "mauritania": {
+        "persian_name": "موریتانی",
+        "emoji": "🇲🇷"
+    },
+    "mauritius": {
+        "persian_name": "موریس",
+        "emoji": "🇲🇺"
+    },
+    "mexico": {
+        "persian_name": "مکزیک",
+        "emoji": "🇲🇽"
+    },
+    "micronesia": {
+        "persian_name": "میکرونزی",
+        "emoji": "🇫🇲"
+    },
+    "moldova": {
+        "persian_name": "مولداوی",
+        "emoji": "🇲🇩"
+    },
+    "monaco": {
+        "persian_name": "موناکو",
+        "emoji": "🇲🇨"
+    },
+    "mongolia": {
+        "persian_name": "مغولستان",
+        "emoji": "🇲🇳"
+    },
+    "montenegro": {
+        "persian_name": "مونته‌نگرو",
+        "emoji": "🇲🇪"
+    },
+    "montserrat": {
+        "persian_name": "مونتسرات",
+        "emoji": "🇲🇸"
+    },
+    "morocco": {
+        "persian_name": "مراکش",
+        "emoji": "🇲🇦"
+    },
+    "mozambique": {
+        "persian_name": "موزامبیک",
+        "emoji": "🇲🇿"
+    },
+    "myanmar": {
+        "persian_name": "میانمار",
+        "emoji": "🇲🇲"
+    },
+    "myanmar (formerly burma)": {
+        "persian_name": "میانمار (برمه)",
+        "emoji": "🇲🇲"
+    },
+    "namibia": {
+        "persian_name": "نامیبیا",
+        "emoji": "🇳🇦"
+    },
+    "nauru": {
+        "persian_name": "نائورو",
+        "emoji": "🇳🇷"
+    },
+    "nepal": {
+        "persian_name": "نپال",
+        "emoji": "🇳🇵"
+    },
+    "netherlands": {
+        "persian_name": "هلند",
+        "emoji": "🇳🇱"
+    },
+    "new zealand": {
+        "persian_name": "نیوزیلند",
+        "emoji": "🇳🇿"
+    },
+    "newcaledonia": {
+        "persian_name": "کالدونیای جدید",
+        "emoji": "🇳🇨"
+    },
+    "newzealand": {
+        "persian_name": "نیوزیلند",
+        "emoji": "🇳🇿"
+    },
+    "nicaragua": {
+        "persian_name": "نیکاراگوئه",
+        "emoji": "🇳🇮"
+    },
+    "niger": {
+        "persian_name": "نیجر",
+        "emoji": "🇳🇪"
+    },
+    "nigeria": {
+        "persian_name": "نیجریه",
+        "emoji": "🇳🇬"
+    },
+    "north korea": {
+        "persian_name": "کره شمالی",
+        "emoji": "🇰🇵"
+    },
+    "north macedonia": {
+        "persian_name": "مقدونیه شمالی",
+        "emoji": "🇲🇰"
+    },
+    "northmacedonia": {
+        "persian_name": "مقدونیه شمالی",
+        "emoji": "🇲🇰"
+    },
+    "norway": {
+        "persian_name": "نروژ",
+        "emoji": "🇳🇴"
+    },
+    "oman": {
+        "persian_name": "عمان",
+        "emoji": "🇴🇲"
+    },
+    "pakistan": {
+        "persian_name": "پاکستان",
+        "emoji": "🇵🇰"
+    },
+    "palau": {
+        "persian_name": "پالائو",
+        "emoji": "🇵🇼"
+    },
+    "palestine": {
+        "persian_name": "فلسطین",
+        "emoji": "🇵🇸"
+    },
+    "panama": {
+        "persian_name": "پاناما",
+        "emoji": "🇵🇦"
+    },
+    "papua new guinea": {
+        "persian_name": "پاپوآ گینه نو",
+        "emoji": "🇵🇬"
+    },
+    "paraguay": {
+        "persian_name": "پاراگوئه",
+        "emoji": "🇵🇾"
+    },
+    "peru": {
+        "persian_name": "پرو",
+        "emoji": "🇵🇪"
+    },
+    "philippines": {
+        "persian_name": "فیلیپین",
+        "emoji": "🇵🇭"
+    },
+    "poland": {
+        "persian_name": "لهستان",
+        "emoji": "🇵🇱"
+    },
+    "portugal": {
+        "persian_name": "پرتغال",
+        "emoji": "🇵🇹"
+    },
+    "puertorico": {
+        "persian_name": "پورتوریکو",
+        "emoji": "🇵🇷"
+    },
+    "qatar": {
+        "persian_name": "قطر",
+        "emoji": "🇶🇦"
+    },
+    "republic of the congo": {
+        "persian_name": "جمهوری کنگو",
+        "emoji": "🇨🇬"
+    },
+    "reunion": {
+        "persian_name": "رئونیون",
+        "emoji": "🇷🇪"
+    },
+    "romania": {
+        "persian_name": "رومانی",
+        "emoji": "🇷🇴"
+    },
+    "russia": {
+        "persian_name": "روسیه",
+        "emoji": "🇷🇺"
+    },
+    "rwanda": {
+        "persian_name": "رواندا",
+        "emoji": "🇷🇼"
+    },
+    "saint kitts and nevis": {
+        "persian_name": "سنت کیتس و نویس",
+        "emoji": "🇰🇳"
+    },
+    "saint lucia": {
+        "persian_name": "سنت لوسیا",
+        "emoji": "🇱🇨"
+    },
+    "saint vincent and the grenadines": {
+        "persian_name": "سنت وینسنت و گرنادین‌ها",
+        "emoji": "🇻🇨"
+    },
+    "saintkittsandnevis": {
+        "persian_name": "سنت کیتس و نویس",
+        "emoji": "🇰🇳"
+    },
+    "saintlucia": {
+        "persian_name": "سنت لوسیا",
+        "emoji": "🇱🇨"
+    },
+    "saintvincentandgrenadines": {
+        "persian_name": "سنت وینسنت و گرنادین‌ها",
+        "emoji": "🇻🇨"
+    },
+    "salvador": {
+        "persian_name": "السالوادور",
+        "emoji": "🇸🇻"
+    },
+    "samoa": {
+        "persian_name": "ساموآ",
+        "emoji": "🇼🇸"
+    },
+    "san marino": {
+        "persian_name": "سان مارینو",
+        "emoji": "🇸🇲"
+    },
+    "saotomeandprincipe": {
+        "persian_name": "سائوتومه و پرنسیپ",
+        "emoji": "🇸🇹"
+    },
+    "saudi arabia": {
+        "persian_name": "عربستان سعودی",
+        "emoji": "🇸🇦"
+    },
+    "saudiarabia": {
+        "persian_name": "عربستان سعودی",
+        "emoji": "🇸🇦"
+    },
+    "senegal": {
+        "persian_name": "سنگال",
+        "emoji": "🇸🇳"
+    },
+    "serbia": {
+        "persian_name": "صربستان",
+        "emoji": "🇷🇸"
+    },
+    "seychelles": {
+        "persian_name": "سیشل",
+        "emoji": "🇸🇨"
+    },
+    "sierra leone": {
+        "persian_name": "سیرالئون",
+        "emoji": "🇸🇱"
+    },
+    "sierraleone": {
+        "persian_name": "سیرالئون",
+        "emoji": "🇸🇱"
+    },
+    "singapore": {
+        "persian_name": "سنگاپور",
+        "emoji": "🇸🇬"
+    },
+    "slovakia": {
+        "persian_name": "اسلواکی",
+        "emoji": "🇸🇰"
+    },
+    "slovenia": {
+        "persian_name": "اسلوونی",
+        "emoji": "🇸🇮"
+    },
+    "solomon islands": {
+        "persian_name": "جزایر سلیمان",
+        "emoji": "🇸🇧"
+    },
+    "somalia": {
+        "persian_name": "سومالی",
+        "emoji": "🇸🇴"
+    },
+    "south africa": {
+        "persian_name": "آفریقای جنوبی",
+        "emoji": "🇿🇦"
+    },
+    "south korea": {
+        "persian_name": "کره جنوبی",
+        "emoji": "🇰🇷"
+    },
+    "south sudan": {
+        "persian_name": "سودان جنوبی",
+        "emoji": "🇸🇸"
+    },
+    "southafrica": {
+        "persian_name": "آفریقای جنوبی",
+        "emoji": "🇿🇦"
+    },
+    "southkorea": {
+        "persian_name": "کره جنوبی",
+        "emoji": "🇰🇷"
+    },
+    "spain": {
+        "persian_name": "اسپانیا",
+        "emoji": "🇪🇸"
+    },
+    "sri lanka": {
+        "persian_name": "سری‌لانکا",
+        "emoji": "🇱🇰"
+    },
+    "srilanka": {
+        "persian_name": "سری‌لانکا",
+        "emoji": "🇱🇰"
+    },
+    "sudan": {
+        "persian_name": "سودان",
+        "emoji": "🇸🇩"
+    },
+    "suriname": {
+        "persian_name": "سورینام",
+        "emoji": "🇸🇷"
+    },
+    "swaziland": {
+        "persian_name": "سوازیلند",
+        "emoji": "🇸🇿"
+    },
+    "sweden": {
+        "persian_name": "سوئد",
+        "emoji": "🇸🇪"
+    },
+    "switzerland": {
+        "persian_name": "سوئیس",
+        "emoji": "🇨🇭"
+    },
+    "syria": {
+        "persian_name": "سوریه",
+        "emoji": "🇸🇾"
+    },
+    "são tomé and príncipe": {
+        "persian_name": "سائوتومه و پرنسیپ",
+        "emoji": "🇸🇹"
+    },
+    "taiwan": {
+        "persian_name": "تایوان",
+        "emoji": "🇹🇼"
+    },
+    "tajikistan": {
+        "persian_name": "تاجیکستان",
+        "emoji": "🇹🇯"
+    },
+    "tanzania": {
+        "persian_name": "تانزانیا",
+        "emoji": "🇹🇿"
+    },
+    "thailand": {
+        "persian_name": "تایلند",
+        "emoji": "🇹🇭"
+    },
+    "timor-leste/east timor": {
+        "persian_name": "تیمور شرقی",
+        "emoji": "🇹🇱"
+    },
+    "togo": {
+        "persian_name": "توگو",
+        "emoji": "🇹🇬"
+    },
+    "tonga": {
+        "persian_name": "تونگا",
+        "emoji": "🇹🇴"
+    },
+    "trinidad and tobago": {
+        "persian_name": "ترینیداد و توباگو",
+        "emoji": "🇹🇹"
+    },
+    "tunisia": {
+        "persian_name": "تونس",
+        "emoji": "🇹🇳"
+    },
+    "turkey": {
+        "persian_name": "بوقلمون",
+        "emoji": "🇹🇷"
+    },
+    "turkmenistan": {
+        "persian_name": "ترکمنستان",
+        "emoji": "🇹🇲"
+    },
+    "turksandcaicos": {
+        "persian_name": "ترکس و کایکوس",
+        "emoji": "🇹🇨"
+    },
+    "tuvalu": {
+        "persian_name": "تووالو",
+        "emoji": "🇹🇻"
+    },
+    "uganda": {
+        "persian_name": "اوگاندا",
+        "emoji": "🇺🇬"
+    },
+    "ukraine": {
+        "persian_name": "اوکراین",
+        "emoji": "🇺🇦"
+    },
+    "united arab emirates": {
+        "persian_name": "امارات متحده عربی",
+        "emoji": "🇦🇪"
+    },
+    "united kingdom": {
+        "persian_name": "انگلستان",
+        "emoji": "🇬🇧"
+    },
+    "united states of america": {
+        "persian_name": "ایالات متحده آمریکا",
+        "emoji": "🇺🇸"
+    },
+    "uruguay": {
+        "persian_name": "اروگوئه",
+        "emoji": "🇺🇾"
+    },
+    "usa": {
+        "persian_name": "ایالات متحده آمریکا",
+        "emoji": "🇺🇸"
+    },
+    "uzbekistan": {
+        "persian_name": "ازبکستان",
+        "emoji": "🇺🇿"
+    },
+    "vanuatu": {
+        "persian_name": "وانواتو",
+        "emoji": "🇻🇺"
+    },
+    "venezuela": {
+        "persian_name": "ونزوئلا",
+        "emoji": "🇻🇪"
+    },
+    "vietnam": {
+        "persian_name": "ویتنام",
+        "emoji": "🇻🇳"
+    },
+    "yemen": {
+        "persian_name": "یمن",
+        "emoji": "🇾🇪"
+    },
+    "zambia": {
+        "persian_name": "زامبیا",
+        "emoji": "🇿🇲"
+    },
+    "zimbabwe": {
+        "persian_name": "زیمبابوه",
+        "emoji": "🇿🇼"
+    }
+}
