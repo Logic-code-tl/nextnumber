@@ -85,12 +85,12 @@ if (isset($_GET['trans_id'], $_GET['order_id'], $_GET['amount'])) {
             style="text-align:
             center;">خطایی در پرداخت رخ داده است </div>';
     }
-    die();
+    die;
 } else {
 
     header($_SERVER['SERVER_PROTOCOL'] . ' 404 Not Found');
     include '404.html';
-    die();
+    die;
 }
 
 ?>
@@ -99,7 +99,6 @@ if (isset($_GET['trans_id'], $_GET['order_id'], $_GET['amount'])) {
 <html lang="fa">
 
 <head>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
