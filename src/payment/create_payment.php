@@ -1,58 +1,52 @@
 <?php
 
 
-require __DIR__ . '/../bot/functions.php';
+require_once __DIR__ . '/../bot/functions.php';
 
 if (isset($_GET['id'], $_GET['amount'])) {
 
 
-
-
-
     $order_id = getRandomString(15);
-    $amount = $_GET['amount'];
 
-    $curl = curl_init();
+    $params = [
+        'order_id' => $order_id,
+        'amount' => $_GET['amount'] . 0,
+        'callback' => PAYMENT_VERIFY_URL,
+    ];
 
-    curl_setopt_array($curl, array(
-        CURLOPT_URL => 'https://nextpay.org/nx/gateway/token',
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_ENCODING => '',
-        CURLOPT_MAXREDIRS => 10,
-        CURLOPT_TIMEOUT => 0,
-        CURLOPT_FOLLOWLOCATION => true,
-        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-        CURLOPT_CUSTOMREQUEST => 'POST',
-        CURLOPT_POSTFIELDS => "api_key=" . NEXTPAY_TOKEN . "&amount={$amount}&order_id={$order_id}&callback_uri=" . PAYMENT_VERIFY_URL,
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, 'https://api.idpay.ir/v1.1/payment');
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($params));
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+        'X-API-KEY: ' . IDPAY_TOKEN,
+        'Content-Type: application/json',
+
     ));
 
+    $response = \json_decode(curl_exec($ch), true);
+    curl_close($ch);
 
-    $response = curl_exec($curl);
-
-    curl_close($curl);
-
-    $response = json_decode($response);
 
     date_default_timezone_set('Asia/Tehran');
 
     $time = date('Y-m-d/H:i');
-    // medoo php for using database
 
     $db->insert('user_payment', [
         'user_id' => $_GET['id'],
         'order_id' => $order_id,
-        'amount' => $amount,
-        'trans_id' => $response->trans_id,
+        'amount' =>  $_GET['amount'] . 0,
+        'trans_id' => $response['id'],
         'purchase_time' => $time,
         'finished' => false
 
     ]);
 
-
-    header('location: https://nextpay.org/nx/gateway/payment/' . $response->trans_id);
-    die();
+    header("location: {$response['link']}");
+    die;
 } else {
     header($_SERVER['SERVER_PROTOCOL'] . ' 404 Not Found');
-    include '404.html';
-    die();
+    include_once __DIR__ . "/../../404.shtml";
+    die;
 }

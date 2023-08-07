@@ -2,60 +2,62 @@
 
 
 
-require __DIR__ . '/../bot/functions.php';
+require_once __DIR__ . '/../bot/functions.php';
 
-if (isset($_GET['trans_id'], $_GET['order_id'], $_GET['amount'])) {
-
-
-    $trans_id = $_GET['trans_id'];
-    $order_id = $_GET['order_id'];
-    $amount = $_GET['amount'];
-
-    $curl = curl_init();
-
-    curl_setopt_array($curl, array(
+if (isset($_GET['id'], $_GET['order_id'])) {
 
 
-        CURLOPT_URL => 'https://nextpay.org/nx/gateway/verify',
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_ENCODING => '',
-        CURLOPT_MAXREDIRS => 10,
-        CURLOPT_TIMEOUT => 0,
-        CURLOPT_FOLLOWLOCATION => true,
-        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-        CURLOPT_CUSTOMREQUEST => 'POST',
-        CURLOPT_POSTFIELDS => "api_key=" . NEXTPAY_TOKEN . "&trans_id=$trans_id&amount=$amount",
+
+    $params = [
+        'id' => $_GET['id'],
+        'order_id' => $_GET['order_id'],
+    ];
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, 'https://api.idpay.ir/v1.1/payment/verify');
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($params));
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+        'Content-Type: application/json',
+        'X-API-KEY: ' . IDPAY_TOKEN,
+
     ));
 
-    $response = json_decode(curl_exec($curl));
+    $response = json_decode(curl_exec($ch), true);
+    $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
-    curl_close($curl);
+    curl_close($ch);
 
-    if ($response->code == 0) {
-        // using medoo php for database
+    if ($http_code == 200) {
 
-        $user_data = $db->select('user_payment', ['user_id'], [
-            'trans_id' => $trans_id,
-            'order_id' => $order_id
+        $user_data = $db->select('user_payment', ['user_id', 'finished', 'amount'], [
+            'trans_id' => $_GET['id'],
+            'order_id' => $_GET['order_id']
         ]);
+
+        if ($user_data[0]['finished'] == true) {
+            header("{$_SERVER['SERVER_PROTOCOL']} 403 Forbidden");
+            include_once __DIR__ . "/../../403.shtml";
+            die;
+        }
 
         $db->update('user_payment', [
             'finished' => true
         ], [
-            'amount' => $amount,
-            'order_id' => $order_id,
-            'trans_id' => $trans_id
+
+            'order_id' => $_GET['order_id'],
+            'trans_id' => $_GET['id']
         ]);
 
         $db->update('user', [
-            'balance[+]' => $amount
+            'balance[+]' =>  $user_data[0]['amount'],
         ], [
             'id' => $user_data[0]['user_id']
         ]);
 
 
         $params = [
-            'text' => 'تبریک به مقدار ' . $amount . "تومان" . "\n" . "به حساب شما افزوده شد برای دیدن مقدار شارژ کیف پول \n /start",
+            'text' => 'تبریک به مقدار ' .  $user_data[0]['amount'] . "تومان" . "\n" . "به حساب شما افزوده شد برای دیدن مقدار شارژ کیف پول \n /start",
             'chat_id' => $user_data[0]['user_id']
         ];
 
@@ -76,7 +78,7 @@ if (isset($_GET['trans_id'], $_GET['order_id'], $_GET['amount'])) {
             برگردید</h1></div>
 
 ';
-        die();
+        die;
     } else {
         echo '<div style=" width: auto; height: 5vw; background-color:
         red; position: relative; margin-right: auto; margin-left: auto; "></div>
@@ -89,7 +91,7 @@ if (isset($_GET['trans_id'], $_GET['order_id'], $_GET['amount'])) {
 } else {
 
     header($_SERVER['SERVER_PROTOCOL'] . ' 404 Not Found');
-    include '404.html';
+    include_once __DIR__ . "/../../404.shtml";
     die;
 }
 
