@@ -5,10 +5,31 @@ declare(strict_types=1);
 function bot($method, $params)
 {
 
-    file_get_contents(API_ENDPOINT . $method . '?' . http_build_query($params));
+
+    $url  = API_ENDPOINT . $method . '?' . http_build_query($params);
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
+    curl_setopt($ch, CURLOPT_FAILONERROR, true);
+    $res = curl_exec($ch);
+    if (curl_errno($ch)) {
+
+        throw new Exception(curl_error($ch));
+    }
+    curl_close($ch);
+
+    return $res;
 }
+
 function create_payment(int $id,  int $amount)
 {
+    if ($amount < 5000) {
+        throw new Exception();
+    }
 
     return PAYMENT_CREATE_URL . '?' . 'id=' . $id . '&' . 'amount=' . $amount;
 }
@@ -30,12 +51,11 @@ function send_message(string $text = null, int $chat_id = null, array $reply_mar
 {
     global $update;
 
-
+    if ($reply_markup != null) {
+        $reply_markup = json_encode($reply_markup);
+    }
 
     if ($param == null) {
-        if ($reply_markup != null) {
-            $reply_markup = json_encode($reply_markup);
-        }
 
         $chat_id ?? $chat_id = $update->message->chat->id ?? $chat_id = $update->callback_query->from->id;
 
@@ -43,14 +63,42 @@ function send_message(string $text = null, int $chat_id = null, array $reply_mar
             'chat_id' => $chat_id,
             'text' => $text,
             'parse_mode' => $parse_mode,
-            'reply_markup' => $reply_markup
+            'reply_markup' => $reply_markup,
+            'disable_web_page_preview' => true
 
         ];
+        $url = API_ENDPOINT . 'sendMessage?' . http_build_query($param);
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
+        curl_setopt($ch, CURLOPT_FAILONERROR, true);
 
-        return file_get_contents(API_ENDPOINT . 'sendMessage?' . http_build_query($param));
+        $res = curl_exec($ch);
+        if (curl_errno($ch)) {
+            throw new Exception(curl_error($ch));
+        }
+        curl_close($ch);
+        return $res;
     } else {
 
-        return file_get_contents(API_ENDPOINT . 'sendMessage?' . http_build_query($param));
+        $url = API_ENDPOINT . 'sendMessage?' . http_build_query($param);
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
+        curl_setopt($ch, CURLOPT_FAILONERROR, true);
+
+        $res = curl_exec($ch);
+        if (curl_errno($ch)) {
+            throw new Exception(curl_error($ch));
+        }
+        curl_close($ch);
+        return $res;
     }
 }
 function validate_data($data, $token)
